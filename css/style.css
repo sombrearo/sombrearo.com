@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   margin: 0px 10px;
   padding: 0.2em 0.4em;
   font-size: 1.3em;
-  border: 0.2em solid #00D635;
+  border: 0.2em solid black;
   border-radius: 10px;
   transition: 0.2s;
   cursor: pointer;
@@ -220,11 +220,11 @@ body::-webkit-scrollbar {
 }
 
 #content .zipper-img-left {
-  margin-right: 4%;
+  margin-right: 2%;
 }
 
 #content .zipper-img-right {
-  margin-left: 4%;
+  margin-left: 2%;
 }
 
 #content .zipper-block-right {
@@ -263,7 +263,7 @@ body::-webkit-scrollbar {
 }
 
 #content .zipper-block-left h2::after {
-  content: "⤚";
+  content: "⮞";
   color: black;
   padding-left: 15px;
 }
@@ -273,13 +273,13 @@ body::-webkit-scrollbar {
 }
 
 #content .zipper-block-right h2::before {
-  content: "⤙";
+  content: "⮜";
   color: black;
   padding-right: 15px;
 }
 
 #content .zipper-container ul {
-  width: 90%;
+  width: 70%;
   list-style: none;
   margin-bottom: 30px;
 }
@@ -293,8 +293,8 @@ body::-webkit-scrollbar {
 }
 
 #content .zipper-container li::before {
-  content: "+";
-  color: #00D635;
+  content: "⚈";
+  color: black;
   padding-right: 10px;
 }
 
